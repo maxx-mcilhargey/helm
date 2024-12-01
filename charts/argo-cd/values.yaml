@@ -1,0 +1,14 @@
+argo-cd:
+  admin:
+    enabled: true
+  exec:
+    enabled: true
+  dex:
+    enabled: false
+  notifications:
+    enabled: false
+  applicationSet:
+    enabled: false
+  server:
+    extraArgs:
+      - --insecure
